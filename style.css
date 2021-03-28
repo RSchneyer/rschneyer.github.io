@@ -34,7 +34,16 @@ h2 {
 b {
     color:var(--sol-grn);
 }
-
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+a:link {
+    color:var(--sol-grn);
+}
+a:visited {
+    color:var(--sol-vio);
+}
 
 .flex-all > div {
     margin: 1%;
