@@ -40,9 +40,11 @@ a {
 }
 a:link {
     color:var(--sol-grn);
+    text-decoration: none;
 }
 a:visited {
     color:var(--sol-vio);
+    text-decoration: none;
 }
 
 .flex-all > div {
