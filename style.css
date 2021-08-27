@@ -22,6 +22,10 @@ body {
     color: var(--base-content);
 }
 
+.info {
+    padding-left: 2%;
+}
+
 i {
     color:#586e75;
 }
