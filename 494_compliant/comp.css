@@ -1,0 +1,45 @@
+:root{
+    --emp-content: #93a1a1;
+    --base-content: #839496;
+    --bkgnd-color: #002b36;
+    --base02: 	#073642;
+    --base01: #586e75;
+    --base00: #657b83;
+    --base0: 	#839496;
+    --base1: 	#93a1a1;
+    --base2: 	#eee8d5;
+    --base3: #fdf6e3;
+    --sol-red:  #dc322f;
+    --sol-orng: #cb4b16;
+    --sol-yel:  #b58900;
+    --sol-grn:  #859900;
+    --sol-cyn:  #2aa198;
+    --sol-blu:  #268bd2;
+    --sol-vio:  #6c71c4;
+    --sol-mag:  #d33682;
+}
+body {
+    margin: 0;
+    font-family: 'IBM Plex Mono';
+    background-color: var(--bkgnd-color);
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: var(--base02);
+  }
+  
+  .topnav a {
+    float: left;
+    color: var(--base-content);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color:var(--base1);
+    color: var(--bkgnd-color)
+  }
+  
