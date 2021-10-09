@@ -22,8 +22,23 @@ body {
     margin: 0;
     font-family: 'IBM Plex Mono';
     background-color: var(--bkgnd-color);
+    color: var(--base-content)
   }
-  
+  hr{
+    height: 1px;
+    background-color: var(--base-content);
+    border: none;
+    margin-right: 2%;
+}
+  .welcome {
+    padding-left: 2%;
+  }
+  .content {
+    padding-left: 2%;
+  }
+  .content_item{
+    padding-right:2%
+  }
   .topnav {
     overflow: hidden;
     background-color: var(--base02);
@@ -43,3 +58,15 @@ body {
     color: var(--bkgnd-color)
   }
   
+  .link {
+    font-weight: bold;
+    text-decoration: none;
+}
+.link:link {
+    color:var(--sol-blu);
+    text-decoration: none;
+}
+.link:visited {
+    color:var(--sol-vio);
+    text-decoration: none;
+}
