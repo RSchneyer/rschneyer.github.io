@@ -39,6 +39,11 @@ body {
   .content_item{
     padding-right:2%
   }
+  .essay{
+      padding-left:15%;
+      padding-right: 15%;
+      line-height:175%;
+}
   .topnav {
     overflow: hidden;
     background-color: var(--base02);
