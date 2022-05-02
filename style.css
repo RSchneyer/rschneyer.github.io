@@ -30,6 +30,10 @@ body {
 i {
     color:#586e75;
 }
+.project_list {
+    color:#586e75;
+    font-style: italic;
+}
 h1 {
     color: var(--sol-orng);
 }
